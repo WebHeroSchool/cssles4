@@ -22,8 +22,13 @@
   font-style: cursive;
 }
 
+
+  body {
+    font-family: 'Lobster', cursive;
+  }
+  
   h1 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Caveat', cursive;
   }
 
   aside {
