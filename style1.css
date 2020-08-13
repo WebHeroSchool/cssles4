@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Lobster';
+  src: url('../fonts/Lobster.eot');
+  src: url('../fonts/Lobster.woff2') format('woff2'),
+       url('../fonts/Lobster.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Lobster.woff') format('woff'),
+       url('../fonts/Lobster.ttf') format('truetype'),
+       url('../fonts/Lobster.svg#lazer') format('svg');
+  font-weight: normal;
+  font-style: cursive;
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('../fonts/Caveat.eot');
+  src: url('../fonts/Caveat.woff2') format('woff2'),
+       url('../fonts/Caveat.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Caveat.woff') format('woff'),
+       url('../fonts/Caveat.ttf') format('truetype'),
+       url('../fonts/Caveat.svg#lazer') format('svg');
+  font-weight: normal;
+  font-style: cursive;
+}
+
+
+  body {
+    font-family: 'Lobster', cursive;
+  }
+  
+  h1 {
+  font-family: 'Caveat', cursive;
+  }
+
+  aside {
+    padding: 0px;
+    width: 260px;
+    float: right;
+    font-size: small;
+  }
+
+  article {
+    padding: 5px;
+    margin-right: 600px;
+    display: block;
+    line-height: 1.6;
+    font-family: 'Caveat', cursive;
+  }
+
+  h4 {
+    margin-bottom: -15px;
+      }
+
+  h6 {
+    border-bottom: 2px solid black;
+    /* Параметры линии под текстом */
+    font-weight: normal;
+    /* Убираем жирное начертание */
+    padding-bottom: 5px;
+    /* Расстояние от текста до линии */
+    margin-bottom: -10px;
+  }
